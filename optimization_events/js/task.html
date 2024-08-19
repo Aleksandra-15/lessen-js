@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./hw.html" />
+    <link rel="stylesheet" href="./task.html" />
+  </head>
+  <body>
+    <h1>Event optimization</h1>
+    <div id="grandparent">
+      дідусь
+      <div id="parent">
+        батько
+        <div id="child">син</div>
+      </div>
+    </div>
+
+    <p>спливання</p>
+    <div id="outher">
+      зовнішній
+      <div id="middle">
+        середній
+        <div id="inner">внутрішній</div>
+      </div>
+    </div>
+
+    <p class="output">Selected color: -</p>
+    <div class="color-palette"></div>
+    <p>Делегування подій</p>
+    <div id="buttonContainer"></div>
+    <script src="./js/optimization of events.js"></script>
+    <script src="./hw.html"></script>
+
+    <ul id="userList">
+      <li data-id="1">
+        John Doe
+        <button class="deleteButton">Delete</button>
+      </li>
+      <li data-id="2">
+        Jane Smith
+        <button class="deleteButton">Delete</button>
+      </li>
+      <li data-id="3">
+        Bob Johnson
+        <button class="deleteButton">Delete</button>
+      </li>
+    </ul>
+
+    <h1>Task List</h1>
+    <form>
+      <label for="newTask">New task:</label>
+      <input type="text" id="newTask" />
+      <button id="addTask">Add</button>
+    </form>
+    <ul id="taskList"></ul>
+
+    <script src="./task.js"></script>
+  </body>
+</html>

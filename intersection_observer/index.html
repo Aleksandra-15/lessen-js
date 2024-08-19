@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <title>Integration Observer API</title>
+    <style>
+      .container {
+        height: 2000px;
+      }
+
+      .target {
+        margin: 1000px auto;
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+      }
+
+      img {
+        margin: 20px 0;
+      }
+
+      .menu {
+        position: fixed;
+
+        top: 0;
+      }
+      .menu ul {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+      }
+      .menu a {
+        color: black;
+        text-decoration: none;
+        border-bottom: 1px solid black;
+      }
+      .active {
+        color: white;
+        background-color: darkslategrey;
+      }
+
+      section {
+        height: 100vh;
+      }
+
+      section:nth-child(1) {
+        background-color: hotpink;
+      }
+      section:nth-child(2) {
+        background-color: coral;
+      }
+      section:nth-child(3) {
+        background-color: yellow;
+      }
+    </style>
+    <div class="container">
+      <div class="target"></div>
+    </div>
+
+    <h2 style="margin-top: 2000px">lazy loading</h2>
+    <img
+      data-src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9248224_b_v8_ax.jpg"
+      loading="lazy"
+      alt="img"
+      width="300"
+      height="589"
+      margin:20px
+      0
+    />
+    <img
+      data-src="https://imageio.forbes.com/blogs-images/erikkain/files/2015/08/Gravity-Falls.png?format=png&height=600&width=1200&fit=bounds"
+      loading="lazy"
+      alt="img"
+      width="500"
+      height="300"
+      margin:20px
+      0
+    />
+    <img
+      data-src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/310F849283661DB22BBC24C763FE2BE709023172F486B9C8D2F5ECB5926E417E"
+      loading="lazy"
+      alt="img"
+      width="500"
+      height="300"
+      margin:20px
+      0
+    />
+    <img
+      data-src="https://image.film.at/images/cfs_landscape_616w_347h/5122074/2rk10JWoQ4meoZX3S6heP6MbSNE.jpg"
+      loading="lazy"
+      alt="img"
+      width="500"
+      height="300"
+      margin:20px
+      0
+    />
+
+    <section>
+      <video
+        src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
+        width="100%"
+        height="300px"
+        controls
+      ></video>
+    </section>
+
+    <naw>
+      <ul class="menu">
+        <li><a href="#top">top</a></li>
+        <li><a href="#middle">middle</a></li>
+        <li><a href="#bottom">bottom</a></li>
+      </ul>
+    </naw>
+    <main
+  
+    >
+      <section id="top"></section>
+      <section id="middle"></section>
+      <section id="bottom"></section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

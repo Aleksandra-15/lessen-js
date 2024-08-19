@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="event-counter">
+      <div class="box">
+        <p>timing function</p>
+        <span class="output vannila">0</span>
+      </div>
+      <div class="box">
+        <p>Trottel</p>
+        <span class="output trottel">0</span>
+      </div>
+      <div class="box">
+        <p>depounce</p>
+        <span class="output debounce">0</span>
+      </div>
+    </div>
+
+    <p style="margin-top: 200px">Приклад з інпутом</p>
+    <input type="text" class="input" />
+    <div class="wrapper">
+      <span>Стандартна поведінка</span>
+      <span id="default"></span>
+    </div>
+    <div class="wrapper">
+      <span>debounced</span>
+      <span id="debounced"></span>
+    </div>
+    <div class="wrapper">
+      <span>throttle</span>
+      <span id="throttle"></span>
+    </div>
+    <input type="text" class="delayEvent" />
+
+    <p style="size: 300px">HOME WORK</p>
+
+    <div class="slider">
+      <input type="range" min="1" max="100" value="50" class="slider__input" />
+      <img src="https://via.placeholder.com/300x300" class="slider__image" />
+    </div>
+
+    <div id="box"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./task.js"></script>
+    <script src="./hw.js"></script>
+  </body>
+</html>
