@@ -1,0 +1,14 @@
+{
+  "name": "typenpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "typenpm script.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "validator": "^1.5.1"
+  }
+}
