@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <include src="./hw/hw.html"></include>
+    <div id="app"></div>
+    <div>
+      <input type="text" id="taskInput" />
+      <button id="addTaskBtn">Add Task</button>
+    </div>
+    <ul id="taskList"></ul>
+
+    <section>
+      <div id="key">Press button</div>
+      <button  class="message">Стан гри</button>
+    </section>
+    
+    <canvas id="sales-chart"></canvas>
+    <script type="module" src="./hw/hw.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!--   <script type="module" src="/main.js"></script> -->
+    <script type="module" src="/task.js"></script>
+  </body>
+</html>

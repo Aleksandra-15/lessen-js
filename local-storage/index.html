@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--home work-->
+    <ul class="todo-list">
+      <li class="list">
+        <input class="input-check" type="checkbox" />задачі на день
+      </li>
+      <li class="list">
+        <input class="input-check" type="checkbox" />задачі на день
+      </li>
+      <li class="list">
+        <input class="input-check" type="checkbox" />задачі на день
+      </li>
+      <li class="list">
+        <input class="input-check" type="checkbox" />задачі на день
+      </li>
+      <li class="list">
+        <input class="input-check" type="checkbox" />задачі на день
+      </li>
+    </ul>
+
+    <form >
+      <input class="field" type="password" placeholder="password"  >
+      <input class="field" type="login" placeholder="login">
+      <input class="field" type="text">
+      <button class="fieldBtn">Зберегти дані</button>
+    </form>
+
+    <h1>Контактна книга</h1>
+    <div id="contactForm">
+        <input type="text" id="firstName" placeholder="Ім'я" required>
+        <input type="text" id="lastName" placeholder="Прізвище" required>
+        <input type="tel" id="phone" placeholder="Телефон" required>
+        <input type="email" id="email" placeholder="Електронна пошта" required>
+        <button onclick="addContact()">Додати контакт</button>
+    </div>
+    <h2>Список контактів</h2>
+    <div id="contactsList"></div>
+
+    <h1>Закладки</h1>
+    <div id="bookmarkForm">
+        <input type="text" id="bookmarkTitle" placeholder="Назва закладки" required>
+        <input type="url" id="bookmarkUrl" placeholder="URL посилання" required>
+        <button onclick="addBookmark()">Додати закладку</button>
+    </div>
+    <h2>Список закладок</h2>
+    <div id="bookmarksList"></div>
+    <script src="./js/localStorage.js"></script>
+    <script src="./js/hw.js"></script>
+    <script type="module" src="./js/task.js"></script>
+  </body>
+</html>

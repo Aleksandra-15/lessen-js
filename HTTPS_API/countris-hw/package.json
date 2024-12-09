@@ -1,0 +1,21 @@
+{
+  "name": "countris-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fetchCountries.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.2",
+    "parcel-transformer-hbs": "^1.0.4"
+  },
+  "dependencies": {
+    "@pnotify/core": "^5.2.0",
+    "handlebars": "^4.7.8",
+    "lodash.debounce": "^4.0.8"
+  }
+}

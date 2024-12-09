@@ -1,14 +1,18 @@
 {
-  "name": "typenpm",
+  "name": "hw",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "typenpm script.js"
+    "start": "hw script.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "validator": "^1.5.1"
+    "validator": "^13.12.0"
+  },
+  "description": "done home work",
+  "keywords": [],
+  "dependencies": {
+    "http-server": "^14.1.1"
   }
 }
