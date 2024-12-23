@@ -1,24 +1,52 @@
-{"students": [
+{
+  "students": [
     {
-      "id": 1,
-      "name": "John Doe",
-      "age": 20,
-      "email": "john.doe@example.com",
-      "phone": "555-1234"
+      "name": "Massi",
+      "age": 76,
+      "email": "jes.92103@gmail.com",
+      "phone": "380987654321",
+      "id": "1"
     },
     {
-      "id": 2,
-      "name": "Jane Smith",
-      "age": 21,
-      "email": "jane.smith@example.com",
-      "phone": "555-5678"
-    },
-    {
-      "id": 3,
+      "id": "3",
       "name": "Bob Johnson",
       "age": 19,
       "email": "bob.johnson@example.com",
       "phone": "555-9012"
+    },
+    {
+      "id": "e864",
+      "name": "Nazariy",
+      "age": "17",
+      "email": "nazariy@gmail.com",
+      "phone": "067356356"
+    },
+    {
+      "id": "5797",
+      "name": "Nazariy",
+      "age": "17",
+      "email": "nazariy@gmail.com",
+      "phone": "067356356"
+    },
+    {
+      "id": "def9",
+      "name": "Nazariy",
+      "age": "17",
+      "email": "nazariy@gmail.com",
+      "phone": "067356356"
+    },
+    {
+      "id": "32db",
+      "name": "Nazariy",
+      "age": "17",
+      "email": "nazariy@gmail.com",
+      "phone": "067356356"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Harry Potter and the Philosopher's Stone"
     }
   ]
 }

@@ -59,12 +59,3 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${postToDELETE}`, {
   .then((posts) => console.log("Post deleted"))
   .catch((err) => console.log(err));
 
-// Додати в проєкт json-server.
-//Створити файл db.json з наступними даними
-
-//Додати в package.json скрипт “server” та запустити json-server в терміналі за допомогою команди npm server
-//GET /students - повернути всіх студентів.
-//GET /students/:id - повернути студента за ідентифікатором.
-//POST /students - додати нового студента.
-//PUT /students/:id - оновити інформацію про студента за ідентифікатором.
-//PATCH /students/:id - оновити часткову інформацію про студента за ідентифікатором.

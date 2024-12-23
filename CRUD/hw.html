@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Database</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Database</h1>
+        
+        <div class="form-container">
+            <h2>Додати новий фільм</h2>
+            <input type="text" id="title" placeholder="Назва фільму" required>
+            <input type="text" id="genre" placeholder="Жанр" required>
+            <input type="text" id="director" placeholder="Режисер" required>
+            <input type="number" id="year" placeholder="Рік" required>
+            <button id="add-movie">Додати фільм</button>
+        </div>
+
+        <button id="get-movies">Отримати фільми</button>
+        <table id="movies-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Назва</th>
+                    <th>Жанр</th>
+                    <th>Режисер</th>
+                    <th>Рік</th>
+                    <th>Дії</th>
+                </tr>
+            </thead>
+            <tbody id="movies-body"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
